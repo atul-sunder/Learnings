@@ -7,6 +7,49 @@
     <groupId>com.sunder</groupId>
     <artifactId>wedphts</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.7</source>
+                    <target>1.7</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 
+    <dependencies>
+    <!-- spring-context which provides core functionality -->
+   <!-- <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-context</artifactId>
+        <version></version>
+    </dependency>
 
+    &lt;!&ndash; The spring-aop module provides an AOP Alliance-compliant aspect-oriented
+        programming implementation allowing you to define &ndash;&gt;
+    <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-aop</artifactId>
+
+    </dependency>
+
+    &lt;!&ndash; The spring-webmvc module (also known as the Web-Servlet module) contains
+        Spring’s model-view-controller (MVC) and REST Web Services implementation
+        for web applications &ndash;&gt;
+    <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-webmvc</artifactId>
+    </dependency>
+
+    &lt;!&ndash; The spring-web module provides basic web-oriented integration features
+        such as multipart file upload functionality and the initialization of the
+        IoC container using Servlet listeners and a web-oriented application context &ndash;&gt;
+    <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-web</artifactId>
+    </dependency>-->
+</dependencies>
 </project>
